@@ -1,0 +1,2338 @@
+[
+  {
+    "unCode": 4,
+    "name": "Afghanistan",
+    "iso2letter": "AF",
+    "iso3letter": "AFG",
+    "isoNumerical": 4,
+    "Notes": ""
+  },
+  {
+    "unCode": 8,
+    "name": "Albania",
+    "iso2letter": "AL",
+    "iso3letter": "ALB",
+    "isoNumerical": 8,
+    "Notes": ""
+  },
+  {
+    "unCode": 10,
+    "name": "Antarctica",
+    "iso2letter": "NULL",
+    "iso3letter": "ANT",
+    "isoNumerical": 10,
+    "Notes": ""
+  },
+  {
+    "unCode": 12,
+    "name": "Algeria",
+    "iso2letter": "DZ",
+    "iso3letter": "DZA",
+    "isoNumerical": 12,
+    "Notes": ""
+  },
+  {
+    "unCode": 16,
+    "name": "American Samoa",
+    "iso2letter": "NULL",
+    "iso3letter": "ASM",
+    "isoNumerical": 16,
+    "Notes": ""
+  },
+  {
+    "unCode": 20,
+    "name": "Andorra",
+    "iso2letter": "AD",
+    "iso3letter": "AND",
+    "isoNumerical": 20,
+    "Notes": ""
+  },
+  {
+    "unCode": 24,
+    "name": "Angola",
+    "iso2letter": "AO",
+    "iso3letter": "AGO",
+    "isoNumerical": 24,
+    "Notes": ""
+  },
+  {
+    "unCode": 28,
+    "name": "Antigua and Barbuda",
+    "iso2letter": "AG",
+    "iso3letter": "ATG",
+    "isoNumerical": 28,
+    "Notes": ""
+  },
+  {
+    "unCode": 31,
+    "name": "Azerbaijan",
+    "iso2letter": "AZ",
+    "iso3letter": "AZE",
+    "isoNumerical": 31,
+    "Notes": ""
+  },
+  {
+    "unCode": 32,
+    "name": "Argentina",
+    "iso2letter": "AR",
+    "iso3letter": "ARG",
+    "isoNumerical": 32,
+    "Notes": ""
+  },
+  {
+    "unCode": 36,
+    "name": "Australia",
+    "iso2letter": "AU",
+    "iso3letter": "AUS",
+    "isoNumerical": 36,
+    "Notes": ""
+  },
+  {
+    "unCode": 40,
+    "name": "Austria",
+    "iso2letter": "AT",
+    "iso3letter": "AUT",
+    "isoNumerical": 40,
+    "Notes": ""
+  },
+  {
+    "unCode": 44,
+    "name": "Bahamas",
+    "iso2letter": "BS",
+    "iso3letter": "BHS",
+    "isoNumerical": 44,
+    "Notes": ""
+  },
+  {
+    "unCode": 48,
+    "name": "Bahrain",
+    "iso2letter": "BH",
+    "iso3letter": "BHR",
+    "isoNumerical": 48,
+    "Notes": ""
+  },
+  {
+    "unCode": 50,
+    "name": "Bangladesh",
+    "iso2letter": "BD",
+    "iso3letter": "BGD",
+    "isoNumerical": 50,
+    "Notes": ""
+  },
+  {
+    "unCode": 51,
+    "name": "Armenia",
+    "iso2letter": "AM",
+    "iso3letter": "ARM",
+    "isoNumerical": 51,
+    "Notes": ""
+  },
+  {
+    "unCode": 52,
+    "name": "Barbados",
+    "iso2letter": "BB",
+    "iso3letter": "BRB",
+    "isoNumerical": 52,
+    "Notes": ""
+  },
+  {
+    "unCode": 58,
+    "name": "Belgium-Luxembourg",
+    "iso2letter": "BE",
+    "iso3letter": "BEL",
+    "isoNumerical": 56,
+    "Notes": "Display as Belgium"
+  },
+  {
+    "unCode": 56,
+    "name": "Belgium",
+    "iso2letter": "BE",
+    "iso3letter": "BEL",
+    "isoNumerical": 56,
+    "Notes": ""
+  },
+  {
+    "unCode": 60,
+    "name": "Bermuda",
+    "iso2letter": "BM",
+    "iso3letter": "BMU",
+    "isoNumerical": 60,
+    "Notes": ""
+  },
+  {
+    "unCode": 64,
+    "name": "Bhutan",
+    "iso2letter": "BT",
+    "iso3letter": "BTN",
+    "isoNumerical": 64,
+    "Notes": ""
+  },
+  {
+    "unCode": 68,
+    "name": "Bolivia",
+    "iso2letter": "BO",
+    "iso3letter": "BOL",
+    "isoNumerical": 68,
+    "Notes": ""
+  },
+  {
+    "unCode": 70,
+    "name": "Bosnia Herzegovina",
+    "iso2letter": "BA",
+    "iso3letter": "BIH",
+    "isoNumerical": 70,
+    "Notes": ""
+  },
+  {
+    "unCode": 72,
+    "name": "Botswana",
+    "iso2letter": "BW",
+    "iso3letter": "BWA",
+    "isoNumerical": 72,
+    "Notes": ""
+  },
+  {
+    "unCode": 74,
+    "name": "Ile Bouvet",
+    "iso2letter": "NULL",
+    "iso3letter": "BVT",
+    "isoNumerical": 74,
+    "Notes": ""
+  },
+  {
+    "unCode": 76,
+    "name": "Brazil",
+    "iso2letter": "BR",
+    "iso3letter": "BRA",
+    "isoNumerical": 76,
+    "Notes": ""
+  },
+  {
+    "unCode": 84,
+    "name": "Belize",
+    "iso2letter": "BZ",
+    "iso3letter": "BLZ",
+    "isoNumerical": 84,
+    "Notes": ""
+  },
+  {
+    "unCode": 86,
+    "name": "British Indian Ocean Territories",
+    "iso2letter": "IO",
+    "iso3letter": "IOT",
+    "isoNumerical": 86,
+    "Notes": ""
+  },
+  {
+    "unCode": 90,
+    "name": "Solomon Islands",
+    "iso2letter": "SB",
+    "iso3letter": "SLB",
+    "isoNumerical": 90,
+    "Notes": ""
+  },
+  {
+    "unCode": 92,
+    "name": "British Virgin Islands",
+    "iso2letter": "VG",
+    "iso3letter": "VGB",
+    "isoNumerical": 92,
+    "Notes": ""
+  },
+  {
+    "unCode": 96,
+    "name": "Brunei Darussalam",
+    "iso2letter": "BN",
+    "iso3letter": "BRN",
+    "isoNumerical": 96,
+    "Notes": ""
+  },
+  {
+    "unCode": 100,
+    "name": "Bulgaria",
+    "iso2letter": "BG",
+    "iso3letter": "BGR",
+    "isoNumerical": 100,
+    "Notes": ""
+  },
+  {
+    "unCode": 104,
+    "name": "Myanmar",
+    "iso2letter": "MM",
+    "iso3letter": "MMR",
+    "isoNumerical": 104,
+    "Notes": ""
+  },
+  {
+    "unCode": 108,
+    "name": "Burundi",
+    "iso2letter": "BI",
+    "iso3letter": "BDI",
+    "isoNumerical": 108,
+    "Notes": ""
+  },
+  {
+    "unCode": 112,
+    "name": "Belarus",
+    "iso2letter": "BY",
+    "iso3letter": "BLR",
+    "isoNumerical": 112,
+    "Notes": ""
+  },
+  {
+    "unCode": 116,
+    "name": "Cambodia",
+    "iso2letter": "KH",
+    "iso3letter": "KHM",
+    "isoNumerical": 116,
+    "Notes": ""
+  },
+  {
+    "unCode": 120,
+    "name": "Cameroon",
+    "iso2letter": "CM",
+    "iso3letter": "CMR",
+    "isoNumerical": 120,
+    "Notes": ""
+  },
+  {
+    "unCode": 124,
+    "name": "Canada",
+    "iso2letter": "CA",
+    "iso3letter": "CAN",
+    "isoNumerical": 124,
+    "Notes": ""
+  },
+  {
+    "unCode": 132,
+    "name": "Cabo Verde",
+    "iso2letter": "CV",
+    "iso3letter": "CPV",
+    "isoNumerical": 132,
+    "Notes": ""
+  },
+  {
+    "unCode": 136,
+    "name": "Cayman Islands",
+    "iso2letter": "KY",
+    "iso3letter": "CYM",
+    "isoNumerical": 136,
+    "Notes": ""
+  },
+  {
+    "unCode": 140,
+    "name": "Central African Republic",
+    "iso2letter": "CF",
+    "iso3letter": "CAF",
+    "isoNumerical": 140,
+    "Notes": ""
+  },
+  {
+    "unCode": 144,
+    "name": "Sri Lanka",
+    "iso2letter": "LK",
+    "iso3letter": "LKA",
+    "isoNumerical": 144,
+    "Notes": ""
+  },
+  {
+    "unCode": 148,
+    "name": "Chad",
+    "iso2letter": "TD",
+    "iso3letter": "TCD",
+    "isoNumerical": 148,
+    "Notes": ""
+  },
+  {
+    "unCode": 152,
+    "name": "Chile",
+    "iso2letter": "CL",
+    "iso3letter": "CHL",
+    "isoNumerical": 152,
+    "Notes": ""
+  },
+  {
+    "unCode": 156,
+    "name": "China",
+    "iso2letter": "CN",
+    "iso3letter": "CHN",
+    "isoNumerical": 156,
+    "Notes": ""
+  },
+  {
+    "unCode": 162,
+    "name": "Christmas Islands",
+    "iso2letter": "CX",
+    "iso3letter": "CXR",
+    "isoNumerical": 162,
+    "Notes": ""
+  },
+  {
+    "unCode": 166,
+    "name": "Cocos Islands",
+    "iso2letter": "CC",
+    "iso3letter": "CCK",
+    "isoNumerical": 166,
+    "Notes": ""
+  },
+  {
+    "unCode": 170,
+    "name": "Colombia",
+    "iso2letter": "CO",
+    "iso3letter": "COL",
+    "isoNumerical": 170,
+    "Notes": ""
+  },
+  {
+    "unCode": 174,
+    "name": "Comoros",
+    "iso2letter": "KM",
+    "iso3letter": "COM",
+    "isoNumerical": 174,
+    "Notes": ""
+  },
+  {
+    "unCode": 175,
+    "name": "Mayotte",
+    "iso2letter": "YT",
+    "iso3letter": "MYT",
+    "isoNumerical": 175,
+    "Notes": ""
+  },
+  {
+    "unCode": 178,
+    "name": "Congo",
+    "iso2letter": "CG",
+    "iso3letter": "COG",
+    "isoNumerical": 178,
+    "Notes": ""
+  },
+  {
+    "unCode": 180,
+    "name": "Democratic Republic of the Congo",
+    "iso2letter": "CD",
+    "iso3letter": "COD",
+    "isoNumerical": 180,
+    "Notes": ""
+  },
+  {
+    "unCode": 184,
+    "name": "Cook Islands",
+    "iso2letter": "CK",
+    "iso3letter": "COK",
+    "isoNumerical": 184,
+    "Notes": ""
+  },
+  {
+    "unCode": 188,
+    "name": "Costa Rica",
+    "iso2letter": "CR",
+    "iso3letter": "CRI",
+    "isoNumerical": 188,
+    "Notes": ""
+  },
+  {
+    "unCode": 191,
+    "name": "Croatia",
+    "iso2letter": "HR",
+    "iso3letter": "HRV",
+    "isoNumerical": 191,
+    "Notes": ""
+  },
+  {
+    "unCode": 192,
+    "name": "Cuba",
+    "iso2letter": "CU",
+    "iso3letter": "CUB",
+    "isoNumerical": 192,
+    "Notes": ""
+  },
+  {
+    "unCode": 196,
+    "name": "Cyprus",
+    "iso2letter": "CY",
+    "iso3letter": "CYP",
+    "isoNumerical": 196,
+    "Notes": ""
+  },
+  {
+    "unCode": 203,
+    "name": "Czech Republic",
+    "iso2letter": "CZ",
+    "iso3letter": "CZE",
+    "isoNumerical": 203,
+    "Notes": ""
+  },
+  {
+    "unCode": 204,
+    "name": "Benin",
+    "iso2letter": "BJ",
+    "iso3letter": "BEN",
+    "isoNumerical": 204,
+    "Notes": ""
+  },
+  {
+    "unCode": 208,
+    "name": "Denmark",
+    "iso2letter": "DK",
+    "iso3letter": "DNK",
+    "isoNumerical": 208,
+    "Notes": ""
+  },
+  {
+    "unCode": 212,
+    "name": "Dominica",
+    "iso2letter": "DM",
+    "iso3letter": "DMA",
+    "isoNumerical": 212,
+    "Notes": ""
+  },
+  {
+    "unCode": 214,
+    "name": "Dominican Republic",
+    "iso2letter": "DO",
+    "iso3letter": "DOM",
+    "isoNumerical": 214,
+    "Notes": ""
+  },
+  {
+    "unCode": 218,
+    "name": "Ecuador",
+    "iso2letter": "EC",
+    "iso3letter": "ECU",
+    "isoNumerical": 218,
+    "Notes": ""
+  },
+  {
+    "unCode": 222,
+    "name": "El Salvador",
+    "iso2letter": "SV",
+    "iso3letter": "SLV",
+    "isoNumerical": 222,
+    "Notes": ""
+  },
+  {
+    "unCode": 226,
+    "name": "Equatorial Guinea",
+    "iso2letter": "GQ",
+    "iso3letter": "GNQ",
+    "isoNumerical": 226,
+    "Notes": ""
+  },
+  {
+    "unCode": 230,
+    "name": "Former Ethiopia",
+    "iso2letter": "ET",
+    "iso3letter": "ETH",
+    "isoNumerical": 231,
+    "Notes": "Display as Ethiopia"
+  },
+  {
+    "unCode": 231,
+    "name": "Ethiopia",
+    "iso2letter": "ET",
+    "iso3letter": "ETH",
+    "isoNumerical": 231,
+    "Notes": ""
+  },
+  {
+    "unCode": 232,
+    "name": "Eritrea",
+    "iso2letter": "ER",
+    "iso3letter": "ERI",
+    "isoNumerical": 232,
+    "Notes": ""
+  },
+  {
+    "unCode": 233,
+    "name": "Estonia",
+    "iso2letter": "EE",
+    "iso3letter": "EST",
+    "isoNumerical": 233,
+    "Notes": ""
+  },
+  {
+    "unCode": 234,
+    "name": "Faeroe Islands",
+    "iso2letter": "FO",
+    "iso3letter": "FRO",
+    "isoNumerical": 234,
+    "Notes": ""
+  },
+  {
+    "unCode": 238,
+    "name": "Falkland Islands (Malvinas)",
+    "iso2letter": "FK",
+    "iso3letter": "FLK",
+    "isoNumerical": 238,
+    "Notes": ""
+  },
+  {
+    "unCode": 239,
+    "name": "South Georgia and the South Sandwich Islands",
+    "iso2letter": "NULL",
+    "iso3letter": "SGS",
+    "isoNumerical": 239,
+    "Notes": ""
+  },
+  {
+    "unCode": 242,
+    "name": "Fiji",
+    "iso2letter": "FJ",
+    "iso3letter": "FJI",
+    "isoNumerical": 242,
+    "Notes": ""
+  },
+  {
+    "unCode": 246,
+    "name": "Finland",
+    "iso2letter": "FI",
+    "iso3letter": "FIN",
+    "isoNumerical": 246,
+    "Notes": ""
+  },
+  {
+    "unCode": 251,
+    "name": "France, Monaco",
+    "iso2letter": "FR",
+    "iso3letter": "FRA",
+    "isoNumerical": 250,
+    "Notes": "Display as France"
+  },
+  {
+    "unCode": 254,
+    "name": "French Guiana",
+    "iso2letter": "GF",
+    "iso3letter": "GUF",
+    "isoNumerical": 254,
+    "Notes": ""
+  },
+  {
+    "unCode": 258,
+    "name": "French Polynesia",
+    "iso2letter": "PF",
+    "iso3letter": "PYF",
+    "isoNumerical": 258,
+    "Notes": ""
+  },
+  {
+    "unCode": 260,
+    "name": "French South Antarctic Territories",
+    "iso2letter": "FQ",
+    "iso3letter": "ATF",
+    "isoNumerical": 260,
+    "Notes": ""
+  },
+  {
+    "unCode": 262,
+    "name": "Djibouti",
+    "iso2letter": "DJ",
+    "iso3letter": "DJI",
+    "isoNumerical": 262,
+    "Notes": ""
+  },
+  {
+    "unCode": 266,
+    "name": "Gabon",
+    "iso2letter": "GA",
+    "iso3letter": "GAB",
+    "isoNumerical": 266,
+    "Notes": ""
+  },
+  {
+    "unCode": 268,
+    "name": "Georgia",
+    "iso2letter": "GE",
+    "iso3letter": "GEO",
+    "isoNumerical": 268,
+    "Notes": ""
+  },
+  {
+    "unCode": 270,
+    "name": "Gambia",
+    "iso2letter": "GM",
+    "iso3letter": "GMB",
+    "isoNumerical": 270,
+    "Notes": ""
+  },
+  {
+    "unCode": 275,
+    "name": "Occupied Palestinian Territory",
+    "iso2letter": "PS",
+    "iso3letter": "PSE",
+    "isoNumerical": 275,
+    "Notes": ""
+  },
+  {
+    "unCode": 276,
+    "name": "Germany",
+    "iso2letter": "DE",
+    "iso3letter": "DEU",
+    "isoNumerical": 276,
+    "Notes": ""
+  },
+  {
+    "unCode": 288,
+    "name": "Ghana",
+    "iso2letter": "GH",
+    "iso3letter": "GHA",
+    "isoNumerical": 288,
+    "Notes": ""
+  },
+  {
+    "unCode": 292,
+    "name": "Gibraltar",
+    "iso2letter": "GI",
+    "iso3letter": "GIB",
+    "isoNumerical": 292,
+    "Notes": ""
+  },
+  {
+    "unCode": 296,
+    "name": "Kiribati",
+    "iso2letter": "KI",
+    "iso3letter": "KIR",
+    "isoNumerical": 296,
+    "Notes": ""
+  },
+  {
+    "unCode": 300,
+    "name": "Greece",
+    "iso2letter": "GR",
+    "iso3letter": "GRC",
+    "isoNumerical": 300,
+    "Notes": ""
+  },
+  {
+    "unCode": 304,
+    "name": "Greenland",
+    "iso2letter": "GL",
+    "iso3letter": "GRL",
+    "isoNumerical": 304,
+    "Notes": ""
+  },
+  {
+    "unCode": 308,
+    "name": "Grenada",
+    "iso2letter": "GD",
+    "iso3letter": "GRD",
+    "isoNumerical": 308,
+    "Notes": ""
+  },
+  {
+    "unCode": 312,
+    "name": "Guadeloupe",
+    "iso2letter": "GP",
+    "iso3letter": "GLP",
+    "isoNumerical": 312,
+    "Notes": ""
+  },
+  {
+    "unCode": 316,
+    "name": "Guam",
+    "iso2letter": "NULL",
+    "iso3letter": "GUM",
+    "isoNumerical": 316,
+    "Notes": ""
+  },
+  {
+    "unCode": 320,
+    "name": "Guatemala",
+    "iso2letter": "GT",
+    "iso3letter": "GTM",
+    "isoNumerical": 320,
+    "Notes": ""
+  },
+  {
+    "unCode": 324,
+    "name": "Guinea",
+    "iso2letter": "GN",
+    "iso3letter": "GIN",
+    "isoNumerical": 324,
+    "Notes": ""
+  },
+  {
+    "unCode": 328,
+    "name": "Guyana",
+    "iso2letter": "GY",
+    "iso3letter": "GUY",
+    "isoNumerical": 328,
+    "Notes": ""
+  },
+  {
+    "unCode": 332,
+    "name": "Haiti",
+    "iso2letter": "HT",
+    "iso3letter": "HTI",
+    "isoNumerical": 332,
+    "Notes": ""
+  },
+  {
+    "unCode": 334,
+    "name": "Heard Island and McDonald Islands",
+    "iso2letter": "NULL",
+    "iso3letter": "HMD",
+    "isoNumerical": 334,
+    "Notes": ""
+  },
+  {
+    "unCode": 336,
+    "name": "Holy See (Vatican City State)",
+    "iso2letter": "VA",
+    "iso3letter": "VAT",
+    "isoNumerical": 336,
+    "Notes": ""
+  },
+  {
+    "unCode": 340,
+    "name": "Honduras",
+    "iso2letter": "HN",
+    "iso3letter": "HND",
+    "isoNumerical": 340,
+    "Notes": ""
+  },
+  {
+    "unCode": 344,
+    "name": "China, Hong Kong Special Administrative Region",
+    "iso2letter": "HK",
+    "iso3letter": "HKG",
+    "isoNumerical": 344,
+    "Notes": ""
+  },
+  {
+    "unCode": 348,
+    "name": "Hungary",
+    "iso2letter": "HU",
+    "iso3letter": "HUN",
+    "isoNumerical": 348,
+    "Notes": ""
+  },
+  {
+    "unCode": 352,
+    "name": "Iceland",
+    "iso2letter": "IS",
+    "iso3letter": "ISL",
+    "isoNumerical": 352,
+    "Notes": ""
+  },
+  {
+    "unCode": 356,
+    "name": "India, excluding Sikkim",
+    "iso2letter": "IN",
+    "iso3letter": "IND",
+    "isoNumerical": 356,
+    "Notes": "Display as India"
+  },
+  {
+    "unCode": 699,
+    "name": "India",
+    "iso2letter": "IN",
+    "iso3letter": "IND",
+    "isoNumerical": 356,
+    "Notes": ""
+  },
+  {
+    "unCode": 360,
+    "name": "Indonesia",
+    "iso2letter": "ID",
+    "iso3letter": "IDN",
+    "isoNumerical": 360,
+    "Notes": ""
+  },
+  {
+    "unCode": 364,
+    "name": "Iran",
+    "iso2letter": "IR",
+    "iso3letter": "IRN",
+    "isoNumerical": 364,
+    "Notes": ""
+  },
+  {
+    "unCode": 368,
+    "name": "Iraq",
+    "iso2letter": "IQ",
+    "iso3letter": "IRQ",
+    "isoNumerical": 368,
+    "Notes": ""
+  },
+  {
+    "unCode": 372,
+    "name": "Ireland",
+    "iso2letter": "IE",
+    "iso3letter": "IRL",
+    "isoNumerical": 372,
+    "Notes": ""
+  },
+  {
+    "unCode": 376,
+    "name": "Israel",
+    "iso2letter": "IL",
+    "iso3letter": "ISR",
+    "isoNumerical": 376,
+    "Notes": ""
+  },
+  {
+    "unCode": 381,
+    "name": "Italy",
+    "iso2letter": "IT",
+    "iso3letter": "ITA",
+    "isoNumerical": 380,
+    "Notes": "Different codes"
+  },
+  {
+    "unCode": 384,
+    "name": "Côte d'Ivoire",
+    "iso2letter": "CI",
+    "iso3letter": "CIV",
+    "isoNumerical": 384,
+    "Notes": ""
+  },
+  {
+    "unCode": 388,
+    "name": "Jamaica",
+    "iso2letter": "JM",
+    "iso3letter": "JAM",
+    "isoNumerical": 388,
+    "Notes": ""
+  },
+  {
+    "unCode": 392,
+    "name": "Japan",
+    "iso2letter": "JP",
+    "iso3letter": "JPN",
+    "isoNumerical": 392,
+    "Notes": ""
+  },
+  {
+    "unCode": 398,
+    "name": "Kazakhstan",
+    "iso2letter": "KZ",
+    "iso3letter": "KAZ",
+    "isoNumerical": 398,
+    "Notes": ""
+  },
+  {
+    "unCode": 400,
+    "name": "Jordan",
+    "iso2letter": "JO",
+    "iso3letter": "JOR",
+    "isoNumerical": 400,
+    "Notes": ""
+  },
+  {
+    "unCode": 404,
+    "name": "Kenya",
+    "iso2letter": "KE",
+    "iso3letter": "KEN",
+    "isoNumerical": 404,
+    "Notes": ""
+  },
+  {
+    "unCode": 408,
+    "name": "Democratic People's Republic of Korea",
+    "iso2letter": "KP",
+    "iso3letter": "PRK",
+    "isoNumerical": 408,
+    "Notes": ""
+  },
+  {
+    "unCode": 410,
+    "name": "Republic of Korea",
+    "iso2letter": "KR",
+    "iso3letter": "KOR",
+    "isoNumerical": 410,
+    "Notes": ""
+  },
+  {
+    "unCode": 414,
+    "name": "Kuwait",
+    "iso2letter": "KW",
+    "iso3letter": "KWT",
+    "isoNumerical": 414,
+    "Notes": ""
+  },
+  {
+    "unCode": 417,
+    "name": "Kyrgyzstan",
+    "iso2letter": "KG",
+    "iso3letter": "KGZ",
+    "isoNumerical": 417,
+    "Notes": ""
+  },
+  {
+    "unCode": 418,
+    "name": "Lao People's Dem. Rep.",
+    "iso2letter": "LA",
+    "iso3letter": "LAO",
+    "isoNumerical": 418,
+    "Notes": ""
+  },
+  {
+    "unCode": 422,
+    "name": "Lebanon",
+    "iso2letter": "LB",
+    "iso3letter": "LBN",
+    "isoNumerical": 422,
+    "Notes": ""
+  },
+  {
+    "unCode": 426,
+    "name": "Lesotho",
+    "iso2letter": "LS",
+    "iso3letter": "LSO",
+    "isoNumerical": 426,
+    "Notes": ""
+  },
+  {
+    "unCode": 428,
+    "name": "Latvia",
+    "iso2letter": "LV",
+    "iso3letter": "LVA",
+    "isoNumerical": 428,
+    "Notes": ""
+  },
+  {
+    "unCode": 430,
+    "name": "Liberia",
+    "iso2letter": "LR",
+    "iso3letter": "LBR",
+    "isoNumerical": 430,
+    "Notes": ""
+  },
+  {
+    "unCode": 434,
+    "name": "Libya",
+    "iso2letter": "LY",
+    "iso3letter": "LBY",
+    "isoNumerical": 434,
+    "Notes": ""
+  },
+  {
+    "unCode": 440,
+    "name": "Lithuania",
+    "iso2letter": "LT",
+    "iso3letter": "LTU",
+    "isoNumerical": 440,
+    "Notes": ""
+  },
+  {
+    "unCode": 442,
+    "name": "Luxembourg",
+    "iso2letter": "LU",
+    "iso3letter": "LUX",
+    "isoNumerical": 442,
+    "Notes": ""
+  },
+  {
+    "unCode": 446,
+    "name": "China, Macao Special Administrative Region",
+    "iso2letter": "MO",
+    "iso3letter": "MAC",
+    "isoNumerical": 446,
+    "Notes": ""
+  },
+  {
+    "unCode": 450,
+    "name": "Madagascar",
+    "iso2letter": "MG",
+    "iso3letter": "MDG",
+    "isoNumerical": 450,
+    "Notes": ""
+  },
+  {
+    "unCode": 454,
+    "name": "Malawi",
+    "iso2letter": "MW",
+    "iso3letter": "MWI",
+    "isoNumerical": 454,
+    "Notes": ""
+  },
+  {
+    "unCode": 458,
+    "name": "Malaysia",
+    "iso2letter": "MY",
+    "iso3letter": "MYS",
+    "isoNumerical": 458,
+    "Notes": ""
+  },
+  {
+    "unCode": 462,
+    "name": "Maldives",
+    "iso2letter": "MV",
+    "iso3letter": "MDV",
+    "isoNumerical": 462,
+    "Notes": ""
+  },
+  {
+    "unCode": 466,
+    "name": "Mali",
+    "iso2letter": "ML",
+    "iso3letter": "MLI",
+    "isoNumerical": 466,
+    "Notes": ""
+  },
+  {
+    "unCode": 470,
+    "name": "Malta",
+    "iso2letter": "MT",
+    "iso3letter": "MLT",
+    "isoNumerical": 470,
+    "Notes": ""
+  },
+  {
+    "unCode": 474,
+    "name": "Martinique",
+    "iso2letter": "MQ",
+    "iso3letter": "MTQ",
+    "isoNumerical": 474,
+    "Notes": ""
+  },
+  {
+    "unCode": 478,
+    "name": "Mauritania",
+    "iso2letter": "MR",
+    "iso3letter": "MRT",
+    "isoNumerical": 478,
+    "Notes": ""
+  },
+  {
+    "unCode": 480,
+    "name": "Mauritius",
+    "iso2letter": "MU",
+    "iso3letter": "MUS",
+    "isoNumerical": 480,
+    "Notes": ""
+  },
+  {
+    "unCode": 484,
+    "name": "Mexico",
+    "iso2letter": "MX",
+    "iso3letter": "MEX",
+    "isoNumerical": 484,
+    "Notes": ""
+  },
+  {
+    "unCode": 492,
+    "name": "Europe EU, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": 492,
+    "Notes": ""
+  },
+  {
+    "unCode": 496,
+    "name": "Mongolia",
+    "iso2letter": "MN",
+    "iso3letter": "MNG",
+    "isoNumerical": 496,
+    "Notes": ""
+  },
+  {
+    "unCode": 498,
+    "name": "Republic of Moldova",
+    "iso2letter": "MD",
+    "iso3letter": "MDA",
+    "isoNumerical": 498,
+    "Notes": ""
+  },
+  {
+    "unCode": 499,
+    "name": "Montenegro",
+    "iso2letter": "ME",
+    "iso3letter": "MNE",
+    "isoNumerical": 499,
+    "Notes": ""
+  },
+  {
+    "unCode": 500,
+    "name": "Montserrat",
+    "iso2letter": "MS",
+    "iso3letter": "MSR",
+    "isoNumerical": 500,
+    "Notes": ""
+  },
+  {
+    "unCode": 504,
+    "name": "Morocco",
+    "iso2letter": "MA",
+    "iso3letter": "MAR",
+    "isoNumerical": 504,
+    "Notes": ""
+  },
+  {
+    "unCode": 508,
+    "name": "Mozambique",
+    "iso2letter": "MZ",
+    "iso3letter": "MOZ",
+    "isoNumerical": 508,
+    "Notes": ""
+  },
+  {
+    "unCode": 512,
+    "name": "Oman",
+    "iso2letter": "OM",
+    "iso3letter": "OMN",
+    "isoNumerical": 512,
+    "Notes": ""
+  },
+  {
+    "unCode": 516,
+    "name": "Namibia",
+    "iso2letter": "NA",
+    "iso3letter": "NAM",
+    "isoNumerical": 516,
+    "Notes": ""
+  },
+  {
+    "unCode": 520,
+    "name": "Nauru",
+    "iso2letter": "NR",
+    "iso3letter": "NRU",
+    "isoNumerical": 520,
+    "Notes": ""
+  },
+  {
+    "unCode": 524,
+    "name": "Nepal",
+    "iso2letter": "NP",
+    "iso3letter": "NPL",
+    "isoNumerical": 524,
+    "Notes": ""
+  },
+  {
+    "unCode": 528,
+    "name": "Netherlands",
+    "iso2letter": "NL",
+    "iso3letter": "NLD",
+    "isoNumerical": 528,
+    "Notes": ""
+  },
+  {
+    "unCode": 533,
+    "name": "Aruba",
+    "iso2letter": "AB",
+    "iso3letter": "ARB",
+    "isoNumerical": 533,
+    "Notes": ""
+  },
+  {
+    "unCode": 540,
+    "name": "New Caledonia",
+    "iso2letter": "NC",
+    "iso3letter": "NCL",
+    "isoNumerical": 540,
+    "Notes": ""
+  },
+  {
+    "unCode": 548,
+    "name": "Vanuatu",
+    "iso2letter": "VU",
+    "iso3letter": "VUT",
+    "isoNumerical": 548,
+    "Notes": ""
+  },
+  {
+    "unCode": 554,
+    "name": "New Zealand",
+    "iso2letter": "NZ",
+    "iso3letter": "NZL",
+    "isoNumerical": 554,
+    "Notes": ""
+  },
+  {
+    "unCode": 558,
+    "name": "Nicaragua",
+    "iso2letter": "NI",
+    "iso3letter": "NIC",
+    "isoNumerical": 558,
+    "Notes": ""
+  },
+  {
+    "unCode": 562,
+    "name": "Niger",
+    "iso2letter": "NE",
+    "iso3letter": "NER",
+    "isoNumerical": 562,
+    "Notes": ""
+  },
+  {
+    "unCode": 566,
+    "name": "Nigeria",
+    "iso2letter": "NG",
+    "iso3letter": "NGA",
+    "isoNumerical": 566,
+    "Notes": ""
+  },
+  {
+    "unCode": 570,
+    "name": "Niue",
+    "iso2letter": "NU",
+    "iso3letter": "NIU",
+    "isoNumerical": 570,
+    "Notes": ""
+  },
+  {
+    "unCode": 574,
+    "name": "Norfolk Islands",
+    "iso2letter": "NF",
+    "iso3letter": "NFK",
+    "isoNumerical": 574,
+    "Notes": ""
+  },
+  {
+    "unCode": 579,
+    "name": "Norway, Svalbard and Jan Mayen",
+    "iso2letter": "NO",
+    "iso3letter": "NOR",
+    "isoNumerical": 578,
+    "Notes": "Different codes"
+  },
+  {
+    "unCode": 580,
+    "name": "Northern Mariana Islands",
+    "iso2letter": "MP",
+    "iso3letter": "MNP",
+    "isoNumerical": 580,
+    "Notes": ""
+  },
+  {
+    "unCode": 581,
+    "name": "United States Minor Outlying Islands",
+    "iso2letter": "UM",
+    "iso3letter": "UMI",
+    "isoNumerical": 581,
+    "Notes": ""
+  },
+  {
+    "unCode": 583,
+    "name": "Federated State of Micronesia",
+    "iso2letter": "FM",
+    "iso3letter": "FSM",
+    "isoNumerical": 583,
+    "Notes": ""
+  },
+  {
+    "unCode": 584,
+    "name": "Marshall Islands",
+    "iso2letter": "MH",
+    "iso3letter": "MHL",
+    "isoNumerical": 584,
+    "Notes": ""
+  },
+  {
+    "unCode": 585,
+    "name": "Palau",
+    "iso2letter": "PW",
+    "iso3letter": "PLW",
+    "isoNumerical": 585,
+    "Notes": ""
+  },
+  {
+    "unCode": 588,
+    "name": "East and West Pakistan",
+    "iso2letter": "PK",
+    "iso3letter": "PAK",
+    "isoNumerical": 586,
+    "Notes": "Display as Pakistan"
+  },
+  {
+    "unCode": 586,
+    "name": "Pakistan",
+    "iso2letter": "PK",
+    "iso3letter": "PAK",
+    "isoNumerical": 586,
+    "Notes": ""
+  },
+  {
+    "unCode": 590,
+    "name": "Former Panama, excluding Canal Zone",
+    "iso2letter": "PA",
+    "iso3letter": "PAN",
+    "isoNumerical": 591,
+    "Notes": "Display as Panama"
+  },
+  {
+    "unCode": 591,
+    "name": "Panama",
+    "iso2letter": "PA",
+    "iso3letter": "PAN",
+    "isoNumerical": 591,
+    "Notes": ""
+  },
+  {
+    "unCode": 598,
+    "name": "Papua New Guinea",
+    "iso2letter": "PG",
+    "iso3letter": "PNG",
+    "isoNumerical": 598,
+    "Notes": ""
+  },
+  {
+    "unCode": 600,
+    "name": "Paraguay",
+    "iso2letter": "PY",
+    "iso3letter": "PRY",
+    "isoNumerical": 600,
+    "Notes": ""
+  },
+  {
+    "unCode": 604,
+    "name": "Peru",
+    "iso2letter": "PE",
+    "iso3letter": "PER",
+    "isoNumerical": 604,
+    "Notes": ""
+  },
+  {
+    "unCode": 608,
+    "name": "Philippines",
+    "iso2letter": "PH",
+    "iso3letter": "PHL",
+    "isoNumerical": 608,
+    "Notes": ""
+  },
+  {
+    "unCode": 612,
+    "name": "Pitcairn",
+    "iso2letter": "PN",
+    "iso3letter": "PCN",
+    "isoNumerical": 612,
+    "Notes": ""
+  },
+  {
+    "unCode": 616,
+    "name": "Poland",
+    "iso2letter": "PL",
+    "iso3letter": "POL",
+    "isoNumerical": 616,
+    "Notes": ""
+  },
+  {
+    "unCode": 620,
+    "name": "Portugal",
+    "iso2letter": "PT",
+    "iso3letter": "PRT",
+    "isoNumerical": 620,
+    "Notes": ""
+  },
+  {
+    "unCode": 624,
+    "name": "Guinea-Bissau",
+    "iso2letter": "GW",
+    "iso3letter": "GNB",
+    "isoNumerical": 624,
+    "Notes": ""
+  },
+  {
+    "unCode": 626,
+    "name": "Timor-Leste",
+    "iso2letter": "TP",
+    "iso3letter": "TMP",
+    "isoNumerical": 626,
+    "Notes": ""
+  },
+  {
+    "unCode": 630,
+    "name": "Puerto Rico",
+    "iso2letter": "PR",
+    "iso3letter": "PRI",
+    "isoNumerical": 630,
+    "Notes": ""
+  },
+  {
+    "unCode": 634,
+    "name": "Qatar",
+    "iso2letter": "QA",
+    "iso3letter": "QAT",
+    "isoNumerical": 634,
+    "Notes": ""
+  },
+  {
+    "unCode": 638,
+    "name": "Réunion",
+    "iso2letter": "RE",
+    "iso3letter": "REU",
+    "isoNumerical": 638,
+    "Notes": ""
+  },
+  {
+    "unCode": 642,
+    "name": "Romania",
+    "iso2letter": "RO",
+    "iso3letter": "ROM",
+    "isoNumerical": 642,
+    "Notes": ""
+  },
+  {
+    "unCode": 643,
+    "name": "Russian Federation",
+    "iso2letter": "RU",
+    "iso3letter": "RUS",
+    "isoNumerical": 643,
+    "Notes": ""
+  },
+  {
+    "unCode": 646,
+    "name": "Rwanda",
+    "iso2letter": "RW",
+    "iso3letter": "RWA",
+    "isoNumerical": 646,
+    "Notes": ""
+  },
+  {
+    "unCode": 654,
+    "name": "Saint Helena",
+    "iso2letter": "SH",
+    "iso3letter": "SHN",
+    "isoNumerical": 654,
+    "Notes": ""
+  },
+  {
+    "unCode": 658,
+    "name": "Saint Kitts, Nevis and Anguilla",
+    "iso2letter": "KN",
+    "iso3letter": "KNA",
+    "isoNumerical": 659,
+    "Notes": "Display as Saint Kitts and Nevis"
+  },
+  {
+    "unCode": 659,
+    "name": "Saint Kitts and Nevis",
+    "iso2letter": "KN",
+    "iso3letter": "KNA",
+    "isoNumerical": 659,
+    "Notes": ""
+  },
+  {
+    "unCode": 660,
+    "name": "Anguilla",
+    "iso2letter": "AI",
+    "iso3letter": "AIA",
+    "isoNumerical": 660,
+    "Notes": ""
+  },
+  {
+    "unCode": 662,
+    "name": "Saint Lucia",
+    "iso2letter": "LC",
+    "iso3letter": "LCA",
+    "isoNumerical": 662,
+    "Notes": ""
+  },
+  {
+    "unCode": 666,
+    "name": "Saint Pierre and Miquelon",
+    "iso2letter": "PM",
+    "iso3letter": "SPM",
+    "isoNumerical": 666,
+    "Notes": ""
+  },
+  {
+    "unCode": 670,
+    "name": "Saint Vincent and the Grenadines",
+    "iso2letter": "VC",
+    "iso3letter": "VCT",
+    "isoNumerical": 670,
+    "Notes": ""
+  },
+  {
+    "unCode": 674,
+    "name": "San Marino",
+    "iso2letter": "SM",
+    "iso3letter": "SMR",
+    "isoNumerical": 674,
+    "Notes": ""
+  },
+  {
+    "unCode": 678,
+    "name": "Sao Tome and Principe",
+    "iso2letter": "ST",
+    "iso3letter": "STP",
+    "isoNumerical": 678,
+    "Notes": ""
+  },
+  {
+    "unCode": 682,
+    "name": "Saudi Arabia",
+    "iso2letter": "SA",
+    "iso3letter": "SAU",
+    "isoNumerical": 682,
+    "Notes": ""
+  },
+  {
+    "unCode": 686,
+    "name": "Senegal",
+    "iso2letter": "SN",
+    "iso3letter": "SEN",
+    "isoNumerical": 686,
+    "Notes": ""
+  },
+  {
+    "unCode": 688,
+    "name": "Serbia",
+    "iso2letter": "RS",
+    "iso3letter": "SRB",
+    "isoNumerical": 688,
+    "Notes": ""
+  },
+  {
+    "unCode": 690,
+    "name": "Seychelles",
+    "iso2letter": "SC",
+    "iso3letter": "SYC",
+    "isoNumerical": 690,
+    "Notes": ""
+  },
+  {
+    "unCode": 694,
+    "name": "Sierra Leone",
+    "iso2letter": "SL",
+    "iso3letter": "SLE",
+    "isoNumerical": 694,
+    "Notes": ""
+  },
+  {
+    "unCode": 702,
+    "name": "Singapore",
+    "iso2letter": "SG",
+    "iso3letter": "SGP",
+    "isoNumerical": 702,
+    "Notes": ""
+  },
+  {
+    "unCode": 703,
+    "name": "Slovakia",
+    "iso2letter": "SK",
+    "iso3letter": "SVK",
+    "isoNumerical": 703,
+    "Notes": ""
+  },
+  {
+    "unCode": 866,
+    "name": "Former Democratic Republic of Vietnam",
+    "iso2letter": "VD",
+    "iso3letter": "VDR",
+    "isoNumerical": 704,
+    "Notes": "Display as Viet Nam"
+  },
+  {
+    "unCode": 868,
+    "name": "Former Republic of Vietnam",
+    "iso2letter": "VN",
+    "iso3letter": "VNM",
+    "isoNumerical": 704,
+    "Notes": "Display as Viet Nam"
+  },
+  {
+    "unCode": 704,
+    "name": "Viet Nam",
+    "iso2letter": "VN",
+    "iso3letter": "VNM",
+    "isoNumerical": 704,
+    "Notes": ""
+  },
+  {
+    "unCode": 705,
+    "name": "Slovenia",
+    "iso2letter": "SI",
+    "iso3letter": "SVN",
+    "isoNumerical": 705,
+    "Notes": ""
+  },
+  {
+    "unCode": 706,
+    "name": "Somalia",
+    "iso2letter": "SO",
+    "iso3letter": "SOM",
+    "isoNumerical": 706,
+    "Notes": ""
+  },
+  {
+    "unCode": 710,
+    "name": "South Africa",
+    "iso2letter": "ZA",
+    "iso3letter": "ZAF",
+    "isoNumerical": 710,
+    "Notes": ""
+  },
+  {
+    "unCode": 716,
+    "name": "Zimbabwe",
+    "iso2letter": "ZW",
+    "iso3letter": "ZWE",
+    "isoNumerical": 716,
+    "Notes": ""
+  },
+  {
+    "unCode": 724,
+    "name": "Spain",
+    "iso2letter": "ES",
+    "iso3letter": "ESP",
+    "isoNumerical": 724,
+    "Notes": ""
+  },
+  {
+    "unCode": 729,
+    "name": "Sudan",
+    "iso2letter": "SD",
+    "iso3letter": "SDN",
+    "isoNumerical": 729,
+    "Notes": "Excludes South Sudan"
+  },
+  {
+    "unCode": 728,
+    "name": "South Sudan",
+    "iso2letter": "SS",
+    "iso3letter": "SSD",
+    "isoNumerical": 728,
+    "Notes": ""
+  },
+  {
+    "unCode": 736,
+    "name": "Fmr Sudan",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 732,
+    "name": "Western Sahara",
+    "iso2letter": "EH",
+    "iso3letter": "ESH",
+    "isoNumerical": 732,
+    "Notes": ""
+  },
+  {
+    "unCode": 740,
+    "name": "Suriname",
+    "iso2letter": "SR",
+    "iso3letter": "SUR",
+    "isoNumerical": 740,
+    "Notes": ""
+  },
+  {
+    "unCode": 748,
+    "name": "Swaziland",
+    "iso2letter": "SZ",
+    "iso3letter": "SWZ",
+    "isoNumerical": 748,
+    "Notes": ""
+  },
+  {
+    "unCode": 752,
+    "name": "Sweden",
+    "iso2letter": "SE",
+    "iso3letter": "SWE",
+    "isoNumerical": 752,
+    "Notes": ""
+  },
+  {
+    "unCode": 757,
+    "name": "Switzerland, Liechtenstein",
+    "iso2letter": "CH",
+    "iso3letter": "CHE",
+    "isoNumerical": 756,
+    "Notes": "Display as Switzerland"
+  },
+  {
+    "unCode": 760,
+    "name": "Syria",
+    "iso2letter": "SY",
+    "iso3letter": "SYR",
+    "isoNumerical": 760,
+    "Notes": ""
+  },
+  {
+    "unCode": 762,
+    "name": "Tajikistan",
+    "iso2letter": "TJ",
+    "iso3letter": "TJK",
+    "isoNumerical": 762,
+    "Notes": ""
+  },
+  {
+    "unCode": 764,
+    "name": "Thailand",
+    "iso2letter": "TH",
+    "iso3letter": "THA",
+    "isoNumerical": 764,
+    "Notes": ""
+  },
+  {
+    "unCode": 768,
+    "name": "Togo",
+    "iso2letter": "TG",
+    "iso3letter": "TGO",
+    "isoNumerical": 768,
+    "Notes": ""
+  },
+  {
+    "unCode": 772,
+    "name": "Tokelau",
+    "iso2letter": "TK",
+    "iso3letter": "TKL",
+    "isoNumerical": 772,
+    "Notes": ""
+  },
+  {
+    "unCode": 776,
+    "name": "Tonga",
+    "iso2letter": "TO",
+    "iso3letter": "TON",
+    "isoNumerical": 776,
+    "Notes": ""
+  },
+  {
+    "unCode": 780,
+    "name": "Trinidad and Tobago",
+    "iso2letter": "TT",
+    "iso3letter": "TTO",
+    "isoNumerical": 780,
+    "Notes": ""
+  },
+  {
+    "unCode": 784,
+    "name": "United Arab Emirates",
+    "iso2letter": "AE",
+    "iso3letter": "ARE",
+    "isoNumerical": 784,
+    "Notes": ""
+  },
+  {
+    "unCode": 788,
+    "name": "Tunisia",
+    "iso2letter": "TN",
+    "iso3letter": "TUN",
+    "isoNumerical": 788,
+    "Notes": ""
+  },
+  {
+    "unCode": 792,
+    "name": "Turkey",
+    "iso2letter": "TR",
+    "iso3letter": "TUR",
+    "isoNumerical": 792,
+    "Notes": ""
+  },
+  {
+    "unCode": 795,
+    "name": "Turkmenistan",
+    "iso2letter": "TM",
+    "iso3letter": "TKM",
+    "isoNumerical": 795,
+    "Notes": ""
+  },
+  {
+    "unCode": 796,
+    "name": "Turks and Caicos Islands",
+    "iso2letter": "TC",
+    "iso3letter": "TCA",
+    "isoNumerical": 796,
+    "Notes": ""
+  },
+  {
+    "unCode": 798,
+    "name": "Tuvalu",
+    "iso2letter": "TV",
+    "iso3letter": "TUV",
+    "isoNumerical": 798,
+    "Notes": ""
+  },
+  {
+    "unCode": 800,
+    "name": "Uganda",
+    "iso2letter": "UG",
+    "iso3letter": "UGA",
+    "isoNumerical": 800,
+    "Notes": ""
+  },
+  {
+    "unCode": 804,
+    "name": "Ukraine",
+    "iso2letter": "UA",
+    "iso3letter": "UKR",
+    "isoNumerical": 804,
+    "Notes": ""
+  },
+  {
+    "unCode": 807,
+    "name": "The Former Yugoslav Republic of Macedonia",
+    "iso2letter": "MK",
+    "iso3letter": "MKD",
+    "isoNumerical": 807,
+    "Notes": ""
+  },
+  {
+    "unCode": 818,
+    "name": "Egypt",
+    "iso2letter": "EG",
+    "iso3letter": "EGY",
+    "isoNumerical": 818,
+    "Notes": ""
+  },
+  {
+    "unCode": 826,
+    "name": "United Kingdom",
+    "iso2letter": "GB",
+    "iso3letter": "GBR",
+    "isoNumerical": 826,
+    "Notes": ""
+  },
+  {
+    "unCode": 834,
+    "name": "United Republic of Tanzania",
+    "iso2letter": "TZ",
+    "iso3letter": "TZA",
+    "isoNumerical": 834,
+    "Notes": ""
+  },
+  {
+    "unCode": 841,
+    "name": "USA and Puerto Rico",
+    "iso2letter": "US",
+    "iso3letter": "USA",
+    "isoNumerical": 840,
+    "Notes": "Display as USA"
+  },
+  {
+    "unCode": 842,
+    "name": "USA, Puerto Rico and US Virgin Islands",
+    "iso2letter": "US",
+    "iso3letter": "USA",
+    "isoNumerical": 840,
+    "Notes": "Display as USA"
+  },
+  {
+    "unCode": 850,
+    "name": "US Virgin Islands",
+    "iso2letter": "VI",
+    "iso3letter": "VIR",
+    "isoNumerical": 850,
+    "Notes": ""
+  },
+  {
+    "unCode": 854,
+    "name": "Burkina Faso",
+    "iso2letter": "BF",
+    "iso3letter": "BFA",
+    "isoNumerical": 854,
+    "Notes": ""
+  },
+  {
+    "unCode": 858,
+    "name": "Uruguay",
+    "iso2letter": "UY",
+    "iso3letter": "URY",
+    "isoNumerical": 858,
+    "Notes": ""
+  },
+  {
+    "unCode": 860,
+    "name": "Uzbekistan",
+    "iso2letter": "UZ",
+    "iso3letter": "UZB",
+    "isoNumerical": 860,
+    "Notes": ""
+  },
+  {
+    "unCode": 862,
+    "name": "Venezuela",
+    "iso2letter": "VE",
+    "iso3letter": "VEN",
+    "isoNumerical": 862,
+    "Notes": ""
+  },
+  {
+    "unCode": 876,
+    "name": "Wallis and Futuna Islands",
+    "iso2letter": "WF",
+    "iso3letter": "WLF",
+    "isoNumerical": 876,
+    "Notes": ""
+  },
+  {
+    "unCode": 882,
+    "name": "Samoa",
+    "iso2letter": "WS",
+    "iso3letter": "WSM",
+    "isoNumerical": 882,
+    "Notes": ""
+  },
+  {
+    "unCode": 720,
+    "name": "Former Democratic Yemen",
+    "iso2letter": "YD",
+    "iso3letter": "YMD",
+    "isoNumerical": 887,
+    "Notes": "Display as Yemen"
+  },
+  {
+    "unCode": 886,
+    "name": "Former Arab Republic of Yemen",
+    "iso2letter": "YE",
+    "iso3letter": "YEM",
+    "isoNumerical": 887,
+    "Notes": "Display as Yemen"
+  },
+  {
+    "unCode": 887,
+    "name": "Yemen",
+    "iso2letter": "YE",
+    "iso3letter": "YEM",
+    "isoNumerical": 887,
+    "Notes": ""
+  },
+  {
+    "unCode": 894,
+    "name": "Zambia",
+    "iso2letter": "ZM",
+    "iso3letter": "ZMB",
+    "isoNumerical": 894,
+    "Notes": ""
+  },
+  {
+    "unCode": 0,
+    "name": "World",
+    "iso2letter": "WL",
+    "iso3letter": "WLD",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 80,
+    "name": "British Antarctic Territories",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 97,
+    "name": "EU-28",
+    "iso2letter": "EU",
+    "iso3letter": "EU2",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 129,
+    "name": "Caribbean, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 200,
+    "name": "Czechoslovakia",
+    "iso2letter": "CS",
+    "iso3letter": "CSK",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 221,
+    "name": "Eastern Europe, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 278,
+    "name": "Former Democratic Republic of Germany",
+    "iso2letter": "DD",
+    "iso3letter": "DDR",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 280,
+    "name": "Former Federal Republic of Germany",
+    "iso2letter": "DE",
+    "iso3letter": "DEU",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 290,
+    "name": "Northern Africa, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 457,
+    "name": "Sarawak",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 459,
+    "name": "Peninsula Malaysia",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 461,
+    "name": "Sabah",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 471,
+    "name": "CACM, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 472,
+    "name": "Africa CAMEU region, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 473,
+    "name": "LAIA, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 490,
+    "name": "Other Asia, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 527,
+    "name": "Oceania, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 530,
+    "name": "Netherlands Antilles",
+    "iso2letter": "AN",
+    "iso3letter": "ANT",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 532,
+    "name": "Netherlands Antilles and Aruba",
+    "iso2letter": "AN",
+    "iso3letter": "ANT",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 536,
+    "name": "Neutral Zone",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 568,
+    "name": "Other Europe, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 577,
+    "name": "Other Africa, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 582,
+    "name": "Former Pacific Islands",
+    "iso2letter": "PC",
+    "iso3letter": "PCI",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 592,
+    "name": "Former Panama-Canal-Zone",
+    "iso2letter": "PZ",
+    "iso3letter": "PCZ",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 636,
+    "name": "Rest of America, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 637,
+    "name": "North America, the Caribbean and Central America not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 647,
+    "name": "Ryukyu Island",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 697,
+    "name": "Europe EFTA, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 698,
+    "name": "Sikkim",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 711,
+    "name": "Southern African Customs Union",
+    "iso2letter": "ZA",
+    "iso3letter": "ZAF",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 717,
+    "name": "Former Rhodesia Nyas",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 810,
+    "name": "Former USSR",
+    "iso2letter": "SU",
+    "iso3letter": "SUN",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 835,
+    "name": "Former Tanganyika",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 836,
+    "name": "Former Zanzibar and Pemba Island",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 837,
+    "name": "Bunkers",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 838,
+    "name": "Free Zones",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 839,
+    "name": "Special Categories",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 849,
+    "name": "US Miscellaneous Pacific Islands",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 879,
+    "name": "Western Asia, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 890,
+    "name": "Former Yugoslavia",
+    "iso2letter": "YU",
+    "iso3letter": "YUG",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 891,
+    "name": "Serbia and Montenegro",
+    "iso2letter": "CS",
+    "iso3letter": "SCG",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 899,
+    "name": "Areas, not elsewhere specified",
+    "iso2letter": "NULL",
+    "iso3letter": "NULL",
+    "isoNumerical": "NULL",
+    "Notes": "No display on map"
+  },
+  {
+    "unCode": 535,
+    "name": "Bonaire",
+    "iso2letter": "BQ",
+    "iso3letter": "BES",
+    "isoNumerical": 535,
+    "Notes": ""
+  }
+]

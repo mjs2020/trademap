@@ -1,0 +1,19 @@
+{
+  "minify": true,
+  "options": [
+    "domPrefixes",
+    "html5shiv",
+    "mq",
+    "setClasses",
+    "testAllProps",
+    "testProp",
+    "testStyles"
+  ],
+  "feature-detects": [
+      "blob",
+      "cors",
+      "css/borderradius",
+      "history",
+      "svg"
+  ]
+}

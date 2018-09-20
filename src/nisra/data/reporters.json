@@ -1,0 +1,58 @@
+[
+  {
+    "id": "EA",
+    "text": "East"
+  },
+  {
+    "id": "EM",
+    "text": "East Midlands"
+  },
+  {
+    "id": "LO",
+    "text": "London"
+  },
+  {
+    "id": "NE",
+    "text": "North East"
+  },
+  {
+    "id": "NI",
+    "text": "Northern Ireland"
+  },
+  {
+    "id": "NW",
+    "text": "North West"
+  },
+  {
+    "id": "SC",
+    "text": "Scotland"
+  },
+  {
+    "id": "SE",
+    "text": "South East"
+  },
+  {
+    "id": "SW",
+    "text": "South West"
+  },
+  {
+    "id": "WA",
+    "text": "Wales"
+  },
+  {
+    "id": "WM",
+    "text": "West Midlands"
+  },
+  {
+    "id": "YH",
+    "text": "Yorkshire and the Humber"
+  },
+  {
+    "id": "ZA",
+    "text": "Unallocated-Known"
+  },
+  {
+    "id": "ZB",
+    "text": "Unallocated-Unknown"
+  }
+]

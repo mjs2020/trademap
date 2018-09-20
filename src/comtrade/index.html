@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- General meta tags -->
+  <link rel="author" href="humans.txt" />
+  <meta name="author" content="Department for International Trade / Department for Business, Energy and Industrial Strategy (UK)">
+  <meta name="Description" content="An interactive visualization of international trade based on UN COMTRADE data.">
+  <meta name="Keywords" content="trade, goods, services, comtrade, united nations, department for international trade, department for business, energy and industrial strategy">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="favicon.ico?v=2">
+
+  <!-- Facebook tags -->
+  <meta property="og:title" content="International Trade in Goods and Services based on UN Comtrade data" />
+  <meta property="og:type" content="Website" />
+  <meta property="og:image" content="http://comtrade.un.org/labs/BIS-trade-in-goods/img/fbThumb.png" />
+  <meta property="og:url" content="http://comtrade.un.org/labs/BIS-trade-in-goods" />
+  <meta property="og:description" content="An interactive data visualization made by the UK Department for International Trade / Department for Business, Energy and Industrial Strategy exploring UN COMTRADE data."
+  />
+
+  <title>International trade in goods and services based on UN Comtrade data</title>
+
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+
+  <div class="container-fluid" id="main">
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation" style="display: none">
+
+      <!-- TITLE AND COLLAPSED MENU -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand">
+          <p>International trade in goods and services based on UN Comtrade data</p>
+          <small>This prototype was developed by the Department for International Trade and the Department for Business, Energy
+            and Industrial Strategy in the UK</small>
+        </div>
+      </div>
+
+      <!-- NAVBAR MENUS ON THE RIGHT -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">About
+              <strong class="caret"></strong>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="pages/about.html" data-toggle="modal" data-target="#myModal">About the data</a>
+              </li>
+              <li>
+                <a href="pages/contacts.html" data-toggle="modal" data-target="#myModal">Key contacts</a>
+              </li>
+              <li>
+                <a href="pages/furtherinfo.html" data-toggle="modal" data-target="#myModal">Further information</a>
+              </li>
+              <li>
+                <a href="pages/licence.html" data-toggle="modal" data-target="#myModal">Licence and Copyright</a>
+              </li>
+              <li>
+                <a href="pages/cookie_policy.html" data-toggle="modal" data-target="#myModal">Cookie policy</a>
+              </li>
+              <li>
+                <a href="#" id="startIntro">Show intro</a>
+              </li>
+              <li>
+                <a href="#footer" id="goToFooter">Credits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Share
+              <strong class="caret"></strong>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="javascript:;" id="facebookShareLink">
+                  <span class="icon-facebook-squared"></span> Share on Facebook</a>
+              </li>
+              <li>
+                <a href="javascript:;" id="tweetLink">
+                  <span class="icon-twitter-squared"></span> Tweet this</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- CONTROLS -->
+      <div class="row clearfix" id="controls">
+        <div class="col-md-3 col-sm-6 col-xs-12 column" id="selectReporterContainer">
+          <!-- Reporter selection -->
+          <select id="selectReporter" class="select2control" style="width: 100%"></span>
+          <br />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 column">
+          <!-- Switch reporter and partner button -->
+          <button type="button" class="btn btn-xs btn-default" id="switchPartners" data-toggle="tooltip" data-placement="bottom" title="Switch Reporter and Partner">
+            <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+          </button>
+          <!-- Partner selection -->
+          <div id="selectPartnerContainer">
+            <select id="selectPartner" class="select2control selectPartner" style="width: 100%"></span>
+          </div>
+        </div>
+        <div class="col-md-1 col-sm-3 col-xs-3 column" id="selectTypeContainer">
+          <!-- Type selector -->
+          <select id="selectType" class="select2control selectType" style="width: 100%"></span>
+        </div>
+        <div class="col-md-3 col-sm-5 col-xs-9 column" id="selectCommodityContainer">
+          <!-- Commodity selection -->
+          <select id="selectCommodity" class="select2control selectCommodity" style="width: 100%"></span>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-6 column">
+          <!-- Year selection -->
+          <div class="selectYearWrapper">
+            <select id="selectYear" class="select2control" disabled style="width: 100%"></select>
+          </div>
+        </div>
+        <div class="col-md-1 col-sm-2 col-xs-6 column">
+          <!-- Clear all button -->
+          <div class="clearBtnWrapper">
+            <button type="button" class="btn btn-xs btn-danger" id="clearFilters">
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Clear all</button>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+
+
+
+    <!-- ALERT for user when a browser not supporting SVG is being useed -->
+    <div id="userAlert" class="alert alert-danger alert-dismissible hidden" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+      <span class="message"></span>
+    </div>
+
+
+
+
+    <!-- Feedback button -->
+    <div id="feedback-tab">
+      <a href="https://ditresearch.eu.qualtrics.com/jfe/form/SV_4Uy6qaGYAfOEndj" target="_blank">Feedback</a>
+    </div>
+
+
+
+
+    <!-- CHOROPLETH -->
+    <div id="choropleth" class="fill-screen chart" style="display: none">
+      <!-- Chart title -->
+      <div id="choroplethTitle">
+        <div class="dropdown titleDropdown" id="choroplethDropdownMenuDiv">
+          <button class="btn btn-xs dropdown-toggle" type="button" id="choroplethDropdownMenu" data-toggle="dropdown" aria-expanded="true"
+            data-toggle="tooltip" data-placement="bottom" title="Extra options">
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="choroplethDropdownMenu">
+            <li role="presentation">
+              <a role="menuitem" tabindex="-1" data-target="choropleth" href="javascript:;" data-format="svg" class="downloadChart">
+                <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as SVG</a>
+            </li>
+            <li role="presentation">
+              <a role="menuitem" tabindex="-1" data-target="choropleth" href="javascript:;" data-format="png" class="downloadChart">
+                <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as PNG</a>
+            </li>
+            <li role="presentation">
+              <a role="menuitem" tabindex="-1" data-target="choropleth" href="javascript:;" class="embedSvg">
+                <span class="icon-code" aria-hidden="true"></span> Embed this chart</a>
+            </li>
+            <li role="presentation">
+              <a role="menuitem" tabindex="-1" href="javascript:;" class="downloadData">
+                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download data for this chart in CSV</a>
+            </li>
+          </ul>
+        </div>
+        <div class="chartTitle"></div>
+      </div>
+
+      <!-- Flow selection -->
+      <div class="btn-group btn-group-justified" id="flowButtons" role="group" aria-label="Import/Balance/Export options">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-sm btn-primary" data-value="2">Exports</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-sm btn-default" data-value="1">Imports</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-sm btn-default" data-value="0">Balance</button>
+        </div>
+      </div>
+
+      <!-- Legend -->
+      <div id="mapLegend">
+        <svg id="mapLegendSvg"></svg>
+      </div>
+
+      <!-- Downward chevron to go to charts -->
+      <div id="goToCharts">
+        <a href="#charts" data-toggle="tooltip" data-placement="left" title="See more charts">
+          <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- SVG appended in here -->
+      <div class="chart"></div>
+    </div>
+
+
+
+
+    <!-- INFO BOX -->
+    <div id="infoBox" class="chart" style="display: none">
+
+      <div id="defaultPanel" class="panel panel-primary">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Key Facts</div>
+        <div class="panel-body">
+          <div class="subtitle">United Kingdom (reporter) trade in all goods with World (Partner) in 2013</div>
+          <dl class="dl-horizontal">
+            <dt>Exports:</dt>
+            <dd class="value exports">$0 bn</dd>
+            <dt>Imports:</dt>
+            <dd class="value imports">$0 bn</dd>
+            <dt>Trade balance:</dt>
+            <dd class="value balance">$0 bn</dd>
+            <dt>Bilateral trade:</dt>
+            <dd class="value bilateral">$0 bn</dd>
+          </dl>
+          <div class="ranking"></div>
+        </div>
+      </div>
+
+      <div id="hoverPanel" class="panel panel-info">
+        <!-- Hover panel contents -->
+        <div class="panel-heading">Key Facts</div>
+        <div class="panel-body">
+          <div class="subtitle"></div>
+          <dl class="dl-horizontal">
+            <dt>Exports:</dt>
+            <dd class="value exports">$0 bn</dd>
+            <dt>Imports:</dt>
+            <dd class="value imports">$0 bn</dd>
+            <dt>Trade balance:</dt>
+            <dd class="value balance">$0 bn</dd>
+            <dt>Bilateral trade:</dt>
+            <dd class="value bilateral">$0 bn</dd>
+          </dl>
+          <div class="ranking"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- CHARTS -->
+    <div id="charts" class="fill-screen">
+      <!-- Upward chevron to go to charts -->
+      <div id="goToMap">
+        <a href="#main" data-toggle="tooltip" data-placement="left" title="Back to map">
+          <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- Yearly flows chart and selector -->
+      <div class="row clearfix">
+        <div id="infoBoxPlaceholder" class="col-xs-12 col-sm-12 col-md-4 column">&nbsp;</div>
+        <div id="yearChart" class="col-xs-12 col-sm-12 col-md-8 column">
+          <div class="dropdown titleDropdown">
+            <button class="btn btn-xs dropdown-toggle" type="button" id="yearlyChartDropdownMenu" data-toggle="dropdown" aria-expanded="true"
+              data-toggle="tooltip" data-placement="bottom" title="Extra options">
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="yearlyChartDropdownMenu">
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="yearChart" data-format="svg" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as SVG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="yearChart" data-format="png" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as PNG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="yearChart" class="embedSvg">
+                  <span class="icon-code" aria-hidden="true"></span> Embed this chart</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" class="downloadData">
+                  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download data for this chart in CSV</a>
+              </li>
+            </ul>
+          </div>
+          <div class="chartTitle"></div>
+          <div class="chart"></div>
+        </div>
+      </div>
+
+
+
+
+      <!-- Top Import/Export Countries -->
+      <div class="row clearfix">
+        <div id="topExportMarkets" class="col-md-6 col-sm-12 column">
+          <div class="dropdown titleDropdown">
+            <button class="btn btn-xs dropdown-toggle" type="button" id="topExportMarketsDropdownMenu" data-toggle="dropdown" aria-expanded="true"
+              data-toggle="tooltip" data-placement="bottom" title="Extra options">
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="topExportMarketsDropdownMenu">
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topExportMarkets" data-format="svg" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as SVG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topExportMarkets" data-format="png" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as PNG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topExportMarkets" class="embedSvg">
+                  <span class="icon-code" aria-hidden="true"></span> Embed this chart</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" class="downloadData">
+                  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download data for this chart in CSV</a>
+              </li>
+            </ul>
+          </div>
+          <div class="chartTitle"></div>
+          <div class="chart barchart"></div>
+        </div>
+        <div id="topImportMarkets" class="col-md-6 col-sm-12 column">
+          <div class="dropdown titleDropdown">
+            <button class="btn btn-xs dropdown-toggle" type="button" id="topImportMarketsDropdownMenu" data-toggle="dropdown" aria-expanded="true"
+              data-toggle="tooltip" data-placement="bottom" title="Extra options">
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="topImportMarketsDropdownMenu">
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topImportMarkets" data-format="svg" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as SVG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topImportMarkets" data-format="png" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as PNG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topImportMarkets" class="embedSvg">
+                  <span class="icon-code" aria-hidden="true"></span> Embed this chart</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" class="downloadData">
+                  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download data for this chart in CSV</a>
+              </li>
+            </ul>
+          </div>
+          <div class="chartTitle"></div>
+          <div class="chart barchart"></div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Top Import/Export Commodities -->
+      <div class="row clearfix">
+        <div id="topExportCommodities" class="col-md-6 col-sm-12 column">
+          <div class="dropdown titleDropdown">
+            <button class="btn btn-xs dropdown-toggle" type="button" id="topExportCommoditiesDropdownMenu" data-toggle="dropdown" aria-expanded="true"
+              data-toggle="tooltip" data-placement="bottom" title="Extra options">
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="topExportCommoditiesDropdownMenu">
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topExportCommodities" data-format="svg" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as SVG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topExportCommodities" data-format="png" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as PNG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topExportCommodities" class="embedSvg">
+                  <span class="icon-code" aria-hidden="true"></span> Embed this chart</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" class="downloadData">
+                  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download data for this chart in CSV</a>
+              </li>
+            </ul>
+          </div>
+          <div class="chartTitle"></div>
+          <div class="chart barchart"></div>
+        </div>
+        <div id="topImportCommodities" class="col-md-6 col-sm-12 column">
+          <div class="dropdown titleDropdown">
+            <button class="btn btn-xs dropdown-toggle" type="button" id="topImportCommoditiesDropdownMenu" data-toggle="dropdown" aria-expanded="true"
+              data-toggle="tooltip" data-placement="bottom" title="Extra options">
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="topImportCommoditiesDropdownMenu">
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topImportCommodities" data-format="svg" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as SVG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topImportCommodities" data-format="png" class="downloadChart">
+                  <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span> Download as PNG</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" data-target="topImportCommodities" class="embedSvg">
+                  <span class="icon-code" aria-hidden="true"></span> Embed this chart</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="javascript:;" class="downloadData">
+                  <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download data for this chart in CSV</a>
+              </li>
+            </ul>
+          </div>
+          <div class="chartTitle"></div>
+          <div class="chart barchart"></div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Close #chart -->
+
+
+
+
+    <!-- Footer -->
+    <div id="footer" class="fill-screen" style="display: none">
+      <div class="col-sm-6">
+        <p>Developed by:</p>
+        <img class="logo" src="img/DIT_logo.png" width="223" height="106" alt="Department for International Trade Logo"> &nbsp; &nbsp; &nbsp; &nbsp;
+        <img class="logo" src="img/img-low-res-Dept-for-Business-Energy-and-Industrial-Strat_294_SML_AW.png" width="220" height="117"
+          alt="Department for Business, Energy and Industrial Strategy Logo">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>Based on data from:</p>
+        <img class="logo" src="img/comtradelogo.png" width="450" height="85" alt="UN COMTRADE Logo" />
+      </div>
+      <div class="col-sm-6">
+        <small>The designations employed and the presentation of material on UN Comtrade do not imply the expression of any opinion
+          whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory,
+          city or area, or of its authorities, or concerning the delimitations of its frontiers or boundaries. Where the
+          designation “country or area” appears on this internet site, it covers countries, territories or areas. The UK
+          Government, who developed the visualisation, takes no responsibility for the underlying data.</small>
+        <p class="licence">
+          The International Trade in Goods and Services visualization is licenced under a
+          <a href="http://www.gnu.org/licenses/gpl-2.0.txt">GPL v2</a> Licence and is available on
+          <a href="https://github.com/UK-BIS-Analysis/trademap">GitHub</a>:
+          <br/>
+          <a class="github-button" href="https://github.com/mjs2020/trademap/fork" data-icon="octicon-repo-forked" aria-label="Fork mjs2020/trademap on GitHub">Fork</a>
+          <a class="github-button" href="https://github.com/mjs2020/trademap" data-icon="octicon-star" aria-label="Star mjs2020/trademap on GitHub">Star</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- EMBED CREDIT -->
+    <div id="embedCredit" style="display: none">
+      <p>International trade in goods and services based on UN Comtrade</p>
+      <small>Developed by the Department for International Trade and the Department for Business, Energy and Industrial Strategy
+        in the UK
+        <br /> See the full data
+        <a href="#">here</a>.</small>
+    </div>
+
+  </div>
+
+
+  <!-- CODE FOR MODALS -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel"></h4>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOADING DIV TO DISPLAY DURING AJAX REQUESTS -->
+  <div id="loadingDiv">
+    <p>Loading data from COMTRADE API. Please wait...</p>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="0" style="width: 50%;"></div>
+    </div>
+    <a class="btn btn-danger btn-xs" id="cancelRequest">Cancel requests</a>
+  </div>
+
+  <!-- CONTEXT MENU -->
+  <div id="contextMenu">
+    <a id="closeContextMenu" href="javascript:;" class="btn btn-xs btn-default">
+      <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu" style="display:block;position:static;margin-bottom:5px;">
+      <li class="dropdown-header">
+        <span class="country"></span>
+      </li>
+      <li class="divider"></li>
+      <li class="setReporter">
+        <a tabindex="-1" href="javascript:;">Set as reporter</a>
+      </li>
+      <li class="setPartner disabled">
+        <a tabindex="-1" href="javascript:;">Set as partner</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Load the viz application script at the end -->
+  <script type="text/javascript" src="main.bundle.js"></script>
+
+  <!-- Github buttons behaviour -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+
+</html>
