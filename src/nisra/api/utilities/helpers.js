@@ -19,7 +19,7 @@ const commodities = require('../../data/commodities.json').reduce(reducer, {});
 const years = require('../../data/years.json').reduce(reducer, {});
 
 const codalphaBlacklist = []; // Not currently used
-const rowRegex = /^([1-4])Q(\d{4})([IE])([A-Z]{2})([A-J])([A-Z0-9 ]{3})([A-Z0-9#]{2})(\d)(\d{2})([ 0-9]{9})([ 0-9]{9})/;
+const rowRegex = /^([1-4])Q(\d{4})([IE])([A-Z]{2})([A-J])([A-Z0-9 ]{3})([A-Z0-9# ]{2})(\d)(\d{2})([ 0-9]{9})([ 0-9]{9})/;
 
 function toCsv(collection, fields) {
   if (!collection.length) throw new Error('toCsv called with empty collection');
@@ -38,7 +38,7 @@ function validateRowRecord(record) {
   if (!years[parseInt(year, 10)]) throw new Error(`Invalid year used in record: ${year}`);
   if (!reporters[nuts1]) throw new Error(`Invalid reporter used in record: ${nuts1}`);
   if (!partners[labarea]) throw new Error(`Invalid labarea used in record: ${labarea}`);
-  if (!partners[codalpha]) throw new Error(`Invalid codalpha used in record: ${codalpha}`);
+  if (!partners[codalpha]) throw new Error(`Invalid codalpha used in record: ${JSON.stringify(record)}`);
 }
 
 function shouldIgnore(record) {
@@ -51,7 +51,7 @@ function extractRows(txtRows) {
     if (!row) return toProcess;
     const matches = row.match(rowRegex);
     if (!matches) throw new Error(`Row "${row}" did not match regex`);
-    let [, quarter, year, flow, nuts1, labarea, codseq, codalpha, sitc1, sitc2, value, mass] = matches.map(v => v.trim());
+    let [, quarter, year, flow, nuts1, labarea, codseq, codalpha, sitc1, sitc2, value, mass] = matches.map(v => v);
     value = parseInt(value, 10);
     mass = parseInt(mass, 10);
     const rowRecord = { quarter, year, flow, nuts1, labarea, codseq, codalpha, sitc1, sitc2, value, mass };

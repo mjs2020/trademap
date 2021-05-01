@@ -1998,5 +1998,13 @@
     "labarea": "I",
     "mapNumerical": 674,
     "selectMenu": false
+  },
+  {
+    "id": "  ",
+    "type": "codealpha",
+    "text": "Unknown European Country",
+    "labarea": "I",
+    "mapNumerical": null,
+    "selectMenu": false
   }
  ]
