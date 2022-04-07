@@ -19,7 +19,7 @@ const commodities = require('../../data/commodities.json').reduce(reducer, {});
 const years = require('../../data/years.json').reduce(reducer, {});
 
 const codalphaBlacklist = []; // Not currently used
-const rowRegex = /^([1-4])Q(\d{4})([IE])([A-Z]{2})([A-J])([A-Z0-9 ]{3})([A-Z0-9# ]{2})(\d)(\d{2})([ 0-9]{9})([ 0-9]{9})/;
+const rowRegex = /^([1-4])Q(\d{4})([IE])([A-Z]{2})([A-J])([A-Z0-9 ]{3})([A-Z0-9# ]{2})(\d)(\d{2})([- 0-9]{9})([- 0-9]{9})/;
 
 function toCsv(collection, fields) {
   if (!collection.length) throw new Error('toCsv called with empty collection');
