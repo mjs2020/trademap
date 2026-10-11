@@ -23,8 +23,8 @@
     "start:nisra": "cross-env PROJECT=nisra webpack-dev-server --mode=development --config webpack.dev.js",
     "zip:comtrade": "zip -r dist/comtrade.zip dist/comtrade",
     "zip:nisra": "zip -r dist/nisra.zip dist/nisra",
-    "release:dev:nisra": "npm run build:nisra && npm run zip:nisra && now -p dist/nisra",
-    "release:dev:comtrade": "npm run build:comtrade && npm run zip:nisra && now -p dist/comtrade"
+    "release:dev:nisra": "npm run build:nisra && npm run zip:nisra && vercel -p dist/nisra",
+    "release:dev:comtrade": "npm run build:comtrade && npm run zip:nisra && vercel -p dist/comtrade"
   },
   "dependencies": {
     "@babel/core": "^7.3.3",
@@ -57,7 +57,7 @@
     "mkdirp": "^0.5.1",
     "modernizr": "^3.9.0",
     "modernizr-loader": "^1.0.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "4.14",
     "popper.js": "^1.12.9",
     "postcss-loader": "^2.1.0",
     "precss": "^3.1.0",
